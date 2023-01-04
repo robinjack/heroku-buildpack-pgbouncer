@@ -41,6 +41,8 @@ stats_period = ${PGBOUNCER_STATS_PERIOD:-60}
 ignore_startup_parameters = ${PGBOUNCER_IGNORE_STARTUP_PARAMETERS}
 query_wait_timeout = ${PGBOUNCER_QUERY_WAIT_TIMEOUT:-120}
 max_db_connections = ${PGBOUNCER_MAX_DB_CONNECTIONS:-100}
+idle_transaction_timeout = ${PGBOUNCER_IDLE_TRANSACTION_TIMEOUT:-3600}
+
 
 [databases]
 EOFEOF
